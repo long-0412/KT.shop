@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.T SHOP</title>
+    <link rel="stylesheet" href="./mycss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/regular.css" integrity="sha384-4e3mPOi7K1/4SAx8aMeZqaZ1Pm4l73ZnRRquHFWzPh2Pa4PMAgZm8/WNh6ydcygU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/solid.css" integrity="sha384-osqezT+30O6N/vsMqwW8Ch6wKlMofqueuia2H7fePy42uC05rm1G+BUPSd2iBSJL" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/brands.css" integrity="sha384-Px1uYmw7+bCkOsNAiAV5nxGKJ0Ixn5nChyW8lCK1Li1ic9nbO5pC/iXaq27X5ENt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="./libraby.js"></script>
+    <!--CSS-owl-->
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+    <!--JS-owl-->
+    <script src="./owl.carousel.min.js"></script>
+</head>
+<body>
+    <div id="page" class="hfeed site">
+        <!--HEADER BEGIN-->
+        <header class="header">
+            <div class="header-container">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="header-top-left">
+                            <span class="email">
+                                <span class="fas fa-envelope"></span>
+                                 long@anvui.com</span>
+                            <span class="phone">
+                                <span class="fas fa-phone"></span>
+
+                                0866157708</span>
+                        </div>
+                        <div class="header-top-right">
+                           <div  class="account">
+                               <a class="login" href="#">
+                                   <span>Đăng nhập</span>
+                               </a>
+                               /
+                               <a class="login" href="#">
+                                   <span>Đăng ký</span>
+                               </a>
+                           </div>
+                           <div  class="search">
+                               <div class="btnsearch">
+                                   <form class="search-table">
+                                       <div class="search-field">
+                                            <input type="hidden" name="type" value="product">
+                                            <input type="text" name="search" id="txtsearch" onblur="outclick()" onfocus="inclick()" value="Tìm kiếm...">
+                                       </div>
+                                       <div class="search-button">
+                                        <i class="fas fa-search"></i>
+                                       </div>
+                                   </form>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="logo">
+                        <img src="./logo (1).png">
+                            </div>
+                            <div class="header-menu">
+                        <ul>
+                            <li><a href="#">TRANG CHỦ</a></li>
+                            <li><a href="#">SẢN PHẨM</a></li>
+                            <li><a href="#">GIỚI THIỆU</a></li>
+                            <li><a href="#">TIN TỨC</a></li>
+                            <li><a href="#">LIÊN HỆ</a></li>
+                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--HEADER END-->
+        <!--SLIDESHOW BEGIN-->
+        <div class="slideshow">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="title-wrapper">
+
+                        <h6 class="title-warpper-content">
+                            <i class="fas fa-bars" style="font-size: 18px;"></i>
+                            DANH MỤC
+                        </h6>
+                    </div>
+                    <div class="slideshow-menu"> 
+                       <ul>
+                            <li><a href="#"><i class="fas fa-female icon" ></i>Thời trang</a>
+                                <ul>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fas fa-utensils icon"></i>Thực phẩm</a></li>
+                            <li><a href="#"><i class="fas fa-lightbulb icon"></i>Điện tử</a></li>
+                            <li><a href="#"><i class="fas fa-home icon"></i>Nội thất</a></li>
+                            <li><a href="#"><i class="far fa-gem icon"></i>Nữ trang</a></li>
+                            <li><a href="#"><i class="fas fa-heart icon"></i>Mỹ phẩm</a>
+                                <ul>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                    <li><a href="#">test1</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fas fa-gift icon"></i>Quà tặng</a></li>
+                       </ul>
+                    </div>
+                    <div class="banner-img">
+                        <div class="img1"><img src="http://runecom01.runtime.vn/Uploads/shop910/images/banner_img_1.jpg"></div>
+                        <div class="img2"><img src="http://runecom01.runtime.vn/Uploads/shop910/images/banner_img_2.jpg"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    
+                    <div class="slides">
+                        <div class="cac-slide fade">
+                            <img src="./slideshow_1.jpg"></div>
+                        <div class="cac-slide fade">
+                            <img src="./slideshow_2.jpg"></div>
+                        <div class="cac-slide fade">
+                            <img src="./slideshow_3.jpg">
+                        </div>
+                    </div>
+                    <div class="nut-slide">
+                        <span id="btn-prev"><i class="fas fa-chevron-circle-left"></i></span>
+                        <span id="btn-next"><i class="fas fa-chevron-circle-right"></i></span>
+                        <ul>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
+                    </div>
+                    <script src="./main.js"></script>
+                    <div class="hrv-commerce">
+                        <header class="headding">
+                            <h4 class="headding-title">
+                                ƯU ĐÃI LỚN
+                            </h4>
+                            <div class="navslider">
+                                <a class="prev">
+                                    <i class="fas fa-chevron-circle-left"></i>
+                                </a>
+                                <a class="next">
+                                    <i class="fas fa-chevron-circle-right"></i>
+                                </a>
+                            </div>
+
+                        </header>
+                        <div class="hrv-content">
+                            <div class="hrv-img"><img src="./girl.jpg"></div>
+                            <div class="hrv-text">
+                                <h4>Áo thun nữ Belike</h4>
+                                <h4><strike>200.000đ</strike><span><strong style="color: #728dcd;">95.000đ</strong></span></h4>
+                                
+                                <p>Trẻ trung và cuốn hút theo phong cách đường phố thu-đông với áo nỉ thêu hình động vật của thương hiệu Asos.- chất liệu cotton pha- Cổ 3cm- Tay dài, suông- Không lót trong- Màu sắc: Xám . Hướng dẫn sử dụng: - giặt bằng tay với nhiệt độ không quá 30 độ C- Không được tẩy- không sấy- ủi.....</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--BANNER BEN PHAI-->
+                <div class="col-md-3 col-sm-12">
+                    <div class="ts-products-widget">
+                        <div class="title-wrapper">
+                            <div class="hr_title headding-title">
+                                Sản phẩm khuyến mãi
+                            </div>
+                        </div>
+                        <!--LIST-->
+                        <div class="ts-products-wrapper">
+                            <div class="per-slide">
+                                <ul class="product_list_widget">
+                                    <!---->
+                                    <li>
+                                        <a href="#" class="wg">
+                                            <img src="./sonitachi.jpg">
+                                        </a>
+                                        <div class="meta">
+                                            <a href="#">Son môi itachi</a>
+                                            <span class="price">
+                                                <del>
+                                                    <span class="amout">600.000đ</span>
+                                                </del>
+                                                <ins>
+                                                    <span class="amout">500.000đ</span>
+                                                </ins>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <!---->
+                                    <li>
+                                        <a href="#" class="wg">
+                                            <img src="./bikini.jpg">
+                                        </a>
+                                        <div class="meta">
+                                            <a href="#">Bikini áo lửng</a>
+                                            <span class="price">
+                                                <del>
+                                                    <span class="amout">600.000đ</span>
+                                                </del>
+                                                <ins>
+                                                   <span class="amout">450.000đ</span>
+                                                </ins>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <!---->
+                                    <li>
+                                        <a href="#" class="wg">
+                                            <img src="./girl.jpg">
+                                        </a>
+                                        <div class="meta">
+                                            <a href="#">Áo thun nữ Belike</a>
+                                            <span class="price">
+                                                <del>
+                                                    <span class="amout">200.000đ</span>
+                                                </del>
+                                                <ins>
+                                                    <span class="amout">95.000đ</span>
+                                                </ins>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <!---->
+                                    <li>
+                                        <a href="#" class="wg">
+                                            <img src="./tpa.jpg">
+                                        </a>
+                                        <div class="meta">
+                                            <a href="#">Son môi TPA-115</a>
+                                            <span class="price">
+                                                <del>
+                                                    <span class="amout">250.000đ</span>
+                                                </del>
+                                                <ins>
+                                                    <span class="amout">125.000đ</span>
+                                                </ins>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="fe-subscription ng-scope">
+                        <div class="widget-title-wrapper">
+                            <h3 class="widget-title headding-title">Đăng ký nhận tin</h3>
+                        </div>
+                        <div class="subscribe-widget">
+                            <form method="post" class="contact-form" >
+                                <div class="subscribe-email">
+                                    <input type="email" value size="18" name="Email" class="subscribe-input" required>
+                                    <span class="input_group_btn">
+                                        <button class="button" name="submitNewsletter" type="submit">Đăng ký</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!--HEADER BEGIN-->
+        </div>
+        <!--SLIDESHOW END-->
+        <!--ADV BEGIN-->
+        <div class="adv">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box-html">
+                            <div class="ts-effect-image eff-border-scale ts-single-image">
+                                <div class="img-link">
+                                    <img src="./banner_home_img.jpg">
+                                    <span class="overlay">
+
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--ADV END-->
+        <!--WRAPPER BEGIN-->
+        <div id="main" class="wrapper">
+            <div class=" page-container container">
+                
+                    <div class="col-md-12">
+                        <div id="main-content" class="row">
+                        <div class="main-menu hr-col-md-2">
+                            
+                                <div class="headding-tab">
+                                    <h4 class=" h44 headding-title">
+                                        <i class="fa fa-female"></i>
+                                        <span>Thời Trang</span>
+                                    </h4>
+                                </div>
+                                <ul class="catalog-list">
+                                    <li class="active"><a href="#">Tất cả</a></li>
+                                    <li><a href="#">Áo sơ mi</a></li>
+                                    <li><a href="#">Áo</a></li>
+                                    <li><a href="#">Túi</a></li>
+                                    <li><a href="#">Trang phục</a></li>
+                                    <li><a href="#">Phụ kiện</a></li>
+                                </ul>
+                            
+                        </div>
+                        <div class="main-info hr-col-md-6">
+                            <div class="product-list">
+                                <div class="product col-md-4">
+                                    <div class="product-wrapper" style="height: 300px;">
+                                        <div class="product-information">
+                                            <div class="product-img thumbnail-wrapper">
+                                                <img src="./anh/aopolo.jpg">
+                                            </div>
+                                            <div class="product-info meta-wrapper">
+                                                <a href="#">
+                                                    <h4 class="headding-title product-name">
+                                                        Áo sơ mi nữ VNXK
+                                                    </h4>
+                                                </a>
+                                                <div class="price-info">
+                                                    <div class="price-new">
+                                                        <span>280.000đ</span>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-md-4">
+                                    <div class="product-wrapper" style="height: 300px;">
+                                        <div class="product-information">
+                                            <div class="product-img thumbnail-wrapper">
+                                                <img src="./anh/girl.jpg">
+                                            </div>
+                                            <div class="product-info meta-wrapper">
+                                                <a href="#">
+                                                    <h4 class="headding-title product-name">
+                                                        Áo thu nữ Belike
+                                                    </h4>
+                                                </a>
+                                                <div class="price-info">
+                                                    <div class="price-new">
+                                                        <span>95.000đ</span>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-md-4">
+                                    <div class="product-wrapper" style="height: 300px;">
+                                        <div class="product-information">
+                                            <div class="product-img thumbnail-wrapper">
+                                                <img src="./anh/aohong.jpg">
+                                            </div>
+                                            <div class="product-info meta-wrapper">
+                                                <a href="#">
+                                                    <h4 class="headding-title product-name">
+                                                        Áo nữ cổ yếm
+                                                    </h4>
+                                                </a>
+                                                <div class="price-info">
+                                                    <div class="price-new">
+                                                        <span>199.000đ</span>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-md-4">
+                                    <div class="product-wrapper" style="height: 300px;">
+                                        <div class="product-information">
+                                            <div class="product-img thumbnail-wrapper">
+                                                <img src="./anh/bikini.jpg">
+                                            </div>
+                                            <div class="product-info meta-wrapper">
+                                                <a href="#">
+                                                    <h4 class="headding-title product-name">
+                                                        Bikini bi áo lửng
+                                                    </h4>
+                                                </a>
+                                                <div class="price-info">
+                                                    <div class="price-new">
+                                                        <span>280.000đ</span>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-md-4">
+                                    <div class="product-wrapper" style="height: 300px;">
+                                        <div class="product-information">
+                                            <div class="product-img thumbnail-wrapper">
+                                                <img src="./anh/aohoa.jpg">
+                                            </div>
+                                            <div class="product-info meta-wrapper">
+                                                <a href="#">
+                                                    <h4 class="headding-title product-name">
+                                                        Áo dài cách tân
+                                                    </h4>
+                                                </a>
+                                                <div class="price-info">
+                                                    <div class="price-new">
+                                                        <span>169.000đ</span>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product col-md-4">
+                                    <div class="product-wrapper" style="height: 300px;">
+                                        <div class="product-information">
+                                            <div class="product-img thumbnail-wrapper">
+                                                <img src="./anh/aolove.jpg">
+                                            </div>
+                                            <div class="product-info meta-wrapper">
+                                                <a href="#">
+                                                    <h4 class="headding-title product-name">
+                                                        Áo thun nữ Love
+                                                    </h4>
+                                                </a>
+                                                <div class="price-info">
+                                                    <div class="price-new">
+                                                        <span>280.000đ</span>
+                                                    </div>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="main-adv hr-col-md-4">
+                            <div class="owl">
+                                <img src="./hoa.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" page-container container">
+                
+                <div class="col-md-12">
+                    <div id="main-content-1" class="row">
+                    <div class="main-menu hr-col-md-2">
+                        
+                            <div class="headding-tab">
+                                <h4 class=" h44 headding-title">
+                                    <i class="fa fa-heart" style="background: #ef939e; color:#fff;"></i>
+                                    <span>Mỹ phẩm</span>
+                                </h4>
+                            </div>
+                            <ul class="catalog-list">
+                                <li class="active"><a href="#">Tất cả</a></li>
+                                <li><a href="#">Kem dưỡng ẩm</a></li>
+                                <li><a href="#">Son môi</a></li>
+                                <li><a href="#">Sơn móng tay</a></li>
+                                <li><a href="#">Trang điểm</a></li>
+                                <li><a href="#">Dưỡng tóc</a></li>
+                            </ul>
+                        
+                    </div>
+                    <div class="main-info hr-col-md-6">
+                        <div class="product-list">
+                            <div class="product col-md-4">
+                                <div class="product-wrapper" style="height: 300px;">
+                                    <div class="product-information">
+                                        <div class="product-img thumbnail-wrapper">
+                                            <img src="./sonitachi.jpg">
+                                        </div>
+                                        <div class="product-info meta-wrapper">
+                                            <a href="#">
+                                                <h4 class="headding-title product-name">
+                                                    Son môi itachi
+                                                </h4>
+                                            </a>
+                                            <div class="price-info">
+                                                <div class="price-new">
+                                                    <span>500.000đ</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product col-md-4">
+                                <div class="product-wrapper" style="height: 300px;">
+                                    <div class="product-information">
+                                        <div class="product-img thumbnail-wrapper">
+                                            <img src="./mascara.jpg">
+                                        </div>
+                                        <div class="product-info meta-wrapper">
+                                            <a href="#">
+                                                <h4 class="headding-title product-name">
+                                                    Mascara dầy cong
+                                                </h4>
+                                            </a>
+                                            <div class="price-info">
+                                                <div class="price-new">
+                                                    <span>50.000đ</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product col-md-4">
+                                <div class="product-wrapper" style="height: 300px;">
+                                    <div class="product-information">
+                                        <div class="product-img thumbnail-wrapper">
+                                            <img src="./tpa.jpg">
+                                        </div>
+                                        <div class="product-info meta-wrapper">
+                                            <a href="#">
+                                                <h4 class="headding-title product-name">
+                                                    Son môi TPA-115
+                                                </h4>
+                                            </a>
+                                            <div class="price-info">
+                                                <div class="price-new">
+                                                    <span>125.000đ</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product col-md-4">
+                                <div class="product-wrapper" style="height: 300px;">
+                                    <div class="product-information">
+                                        <div class="product-img thumbnail-wrapper">
+                                            <img src="./hoahong.jpg">
+                                        </div>
+                                        <div class="product-info meta-wrapper">
+                                            <a href="#">
+                                                <h4 class="headding-title product-name">
+                                                    Son hoa hồng
+                                                </h4>
+                                            </a>
+                                            <div class="price-info">
+                                                <div class="price-new">
+                                                    <span>100.000đ</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product col-md-4">
+                                <div class="product-wrapper" style="height: 300px;">
+                                    <div class="product-information">
+                                        <div class="product-img thumbnail-wrapper">
+                                            <img src="./sg.jpg">
+                                        </div>
+                                        <div class="product-info meta-wrapper">
+                                            <a href="#">
+                                                <h4 class="headding-title product-name">
+                                                    Nước trắng da SG
+                                                </h4>
+                                            </a>
+                                            <div class="price-info">
+                                                <div class="price-new">
+                                                    <span>200.000đ</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product col-md-4">
+                                <div class="product-wrapper" style="height: 300px;">
+                                    <div class="product-information">
+                                        <div class="product-img thumbnail-wrapper">
+                                            <img src="./aug.jpg">
+                                        </div>
+                                        <div class="product-info meta-wrapper">
+                                            <a href="#">
+                                                <h4 class="headding-title product-name">
+                                                    Phấn AUG
+                                                </h4>
+                                            </a>
+                                            <div class="price-info">
+                                                <div class="price-new">
+                                                    <span>400.000đ</span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="main-adv hr-col-md-4">
+                        <div class="owl">
+                            <img src="./tabs_2_slider_img_3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--WRAPPER END-->
+        <!--PARTNER BEGIN-->
+        <div class="partner">
+            <div class="container">
+                <div class="client-carousel section-padding owl-carousel">
+                    <div class="img-area">
+                        <img src="./partner_img_1.png">
+                    </div>
+                    <div class="img-area">
+                        <img src="./partner_img_2.png">
+                    </div>
+                    <div class="img-area">
+                        <img src="./partner_img_3.png">
+                    </div>
+                    <div class="img-area">
+                        <img src="./partner_img_4.png">
+                    </div>
+                    <div class="img-area">
+                        <img src="./partner_img_5.png">
+                    </div>
+                    <div class="img-area">
+                        <img src="./partner_img_6.png">
+                    </div>
+                   
+                </div>
+            </div>
+            
+        </div>
+        <!--PARTNER END-->
+        <!--FOOTER BEGIN-->
+        <div class="footer">
+            <div class="footer-first">
+                <div class="row">
+                <div class="col-sm-4 hrv_sp">
+                    <div class="hrv_sp-icon">
+                        <img src="./support_img_1.png">
+                    </div>        
+                    <div class="hrv_sp-text">
+                        <h4>24/7</h4>
+                        <p>Hỗ trợ miễn phí</p>
+                    </div>        
+                </div>
+                <div class="col-sm-4 hrv_sp middle">
+                    <div class="hrv_sp-icon">
+                        <img src="./support_img_2.png">
+                    </div>        
+                    <div class="hrv_sp-text">
+                        <h4>100% HOÀN TIỀN</h4>
+                        <p>Bảo hành</p>
+                    </div>        
+                </div>
+                <div class="col-sm-4 hrv_sp botom">
+                    <div class="hrv_sp-icon">
+                        <img src="./support_img_3.png">
+                    </div>        
+                    <div class="hrv_sp-text">
+                        <h4>MIỄN PHÍ SHIPPING</h4>
+                        <p>Trên 5 đơn hàng</p>
+                    </div>        
+                </div>
+                </div>
+            </div>
+            <div class="footer-second">
+                <div class="container">
+                    <div class="footer-block row ">
+                        <div class="col-md-3">
+                            <div class="wpb_content_element">
+                                <h4 class="tieude headding-title">
+                                    <span>VỀ CHÚNG TÔI</span>
+                                </h4>
+                                <ul class="tieude-info">
+                                    <li><a href="#">Giới thiệu</a></li>
+                                    <li><a href="#">Giao hàng - Đổi trả</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                    <li><a href="#">Liên hệ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wpb_content_element">
+                                <h4 class="tieude headding-title">
+                                    <span>TRỢ GIÚP</span>
+                                </h4>
+                                <ul class="tieude-info">
+                                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                                    <li><a href="#">Hướng dẫn thanh toán</a></li>
+                                    <li><a href="#">Tài khoản giao dịch</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wpb_content_element">
+                                <section class="ts-social-icons">
+                                    <h4 class="tieude headding-title">Kết nối với chúng tôi</h4>
+                                    <div class="social-icons style-3">
+                                        <ul class="list-icon">
+                                            <li>
+                                                <a title class="facebook">
+                                                    <i class="fab fa-facebook-f"></i>
+                                                    <span class="ts-tooltip social-tooltip">Facebook</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title class="google">
+                                                    <i class="fab fa-google-plus-g"></i>
+                                                    <span class="ts-tooltip social-tooltip">Google plus</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title class="twitter">
+                                                    <i class="fab fa-twitter"></i>
+                                                    <span class="ts-tooltip social-tooltip">Twitter</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title class="instagram">
+                                                    <i class="fab fa-instagram"></i>
+                                                    <span class="ts-tooltip social-tooltip">Instagram</span>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="wpb_content_element">
+                                <h4 class="tieude headding-title">
+                                    <span>HÃY ĐẾN VỚI CHÚNG TÔI</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FOOTER END-->
+    </div>
+    <script>
+                $('.client-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        autoplay: true,
+                        autoplaySpeed: 1000,
+                        responsive:{
+                             0:{
+                                    items:1
+                                },
+                            600:{
+                                    items:3
+                                },
+                            1000:{
+                                    items:6
+                                }   
+                        }
+                    })
+            
+    </script>
+</body>
+</html>
